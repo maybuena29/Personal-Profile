@@ -82,10 +82,24 @@ scrollScale.forEach((el) => observer.observe(el));
 const scrollTop = document.querySelectorAll(".scroll-top");
 scrollScale.forEach((el) => observer.observe(el));
 
+// Scroll Reveal //
+ScrollReveal({ 
+    reset: true,
+    distance: '80px',
+    duration: 2000,
+    delay: 200
+});
 
+ScrollReveal().reveal('.home-content, .heading, .main-text h2', { origin: 'top' });
+ScrollReveal().reveal('.home-img, .contact form', { origin: 'bottom' });
+ScrollReveal().reveal('.about-img, .home-content h1', { origin: 'left' });
 
-
-
-
-
+// Typed JS //
+const typed = new Typed('.multiple-text', {
+    strings: ['Web Developer', 'Database Admin', 'Musician', 'Gamer'],
+    typeSpeed: 100,
+    backSpeed: 100,
+    backDelay: 1000,
+    loop: true
+})
 
