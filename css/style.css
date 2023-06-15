@@ -537,13 +537,25 @@ span{
     section{
         padding: 10rem 5% 2rem;
     }
+
+    .skill-main{
+        padding-bottom: 7rem;
+    }
+
+    .projects{
+        padding-bottom: 7rem;
+    }
+
+    .contact{
+        min-height: auto;
+    }
     
     .footer{
         padding: 2rem 3%;
     }
 }
 
-@media (max-width:768px){
+@media (max-width:890px){
     #menu-icon{
         display: block;
     }
@@ -583,7 +595,7 @@ span{
     }
 
     .home-img img{
-        width: 70vw;
+        width: 65vw;
         margin-top: 4rem;
     }
 
@@ -592,16 +604,58 @@ span{
     }
 
     .about img{
-        width: 70vw;
+        width: 65vw;
         margin-top: 4rem;
+    }
+
+    .skill-main{
+        grid-template-columns: 1fr;
+    }
+
+    .projects h2{
+        margin-bottom: 3rem;
+    }
+
+    .projects-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+}
+
+@media (max-width:617px){
+    .projects-container{
+        grid-template-columns: 1fr;
     }
 }
 
+@media (max-width:500px){
+    html{
+        font-size: 50%;
+    }
 
+    .contact form .input-box input{
+        width: 100%;
+    }
+}
 
+@media (max-width:365px){
+    .home-img img{
+        width: 90vw;
+    }
 
+    .about-img img{
+        width: 90vw;
+    }
 
+    .footer{
+        flex-direction: column-reverse;
+    }
 
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
 
 
 
