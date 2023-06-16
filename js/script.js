@@ -90,9 +90,9 @@ ScrollReveal({
     delay: 200
 });
 
-ScrollReveal().reveal('.home-content, .heading, .main-text h2', { origin: 'top' });
+ScrollReveal().reveal('.home-content, .heading', { origin: 'top' });
 ScrollReveal().reveal('.home-img, .contact form', { origin: 'bottom' });
-ScrollReveal().reveal('.about-img, .home-content h1', { origin: 'left' });
+ScrollReveal().reveal('.about-img, .home-content h1, .main-text h2', { origin: 'left' });
 
 // Typed JS //
 const typed = new Typed('.multiple-text', {
