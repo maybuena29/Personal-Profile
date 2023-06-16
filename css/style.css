@@ -172,7 +172,7 @@ span{
     gap: 2rem;
     /* background: var(--second-bg-color); */
     min-height: 800px;
-    background-image: url("images/about_cover_photo.png");
+    background-image: url("../images/about_cover_photo.png");
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
