@@ -202,6 +202,16 @@ span{
     margin: 2rem 0 3rem;
 }
 
+.readmore-inactive{
+    display: none;
+}
+
+.readmore-active{
+    text-align: justify;
+    text-justify: inter-word;
+    display: block;
+}
+
 /* Skills Section */
 /* Skills Left */
 .main-text{
@@ -636,6 +646,25 @@ span{
 
     .contact form .input-box input{
         width: 100%;
+    }
+}
+
+@media (max-width:420px){
+    .home-img img{
+        width: 90vw;
+    }
+
+    .about-img img{
+        width: 90vw;
+    }
+
+    .footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer p{
+        text-align: center;
+        margin-top: 2rem;
     }
 }
 

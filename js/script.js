@@ -96,10 +96,30 @@ ScrollReveal().reveal('.about-img, .home-content h1, .main-text h2', { origin: '
 
 // Typed JS //
 const typed = new Typed('.multiple-text', {
-    strings: ['Web Developer', 'Database Admin', 'Musician', 'Gamer'],
+    strings: ['Web Developer', 'Database Admin', 'Full-Stack Developer'],
     typeSpeed: 100,
     backSpeed: 100,
     backDelay: 1000,
     loop: true
 })
+
+// For Read More in About // 
+function readMore() {
+    var moreText = document.getElementById("more-info");
+    var btnText = document.getElementById("read-more");
+  
+    if (btnText.innerHTML === "Read less") {
+        btnText.innerHTML = "Read more";
+    //   moreText.style.display = "none";
+        moreText.classList.remove("readmore-active");
+        moreText.classList.add("readmore-inactive");
+    } else {
+        btnText.innerHTML = "Read less";
+        moreText.classList.add("readmore-active");
+        moreText.classList.remove("readmore-inactive");
+    }
+  }
+
+
+
 
