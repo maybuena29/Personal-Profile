@@ -376,6 +376,11 @@ span{
 /* Projects Design */
 .projects {
     background: var(--second-bg-color);
+    /* background-image: url("../images/project_bg.png");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
     /* margin-bottom: 3.5rem; */
 }
 
@@ -390,7 +395,7 @@ span{
 .projects-container .projects-box{
     position: relative;
     border-radius: 2rem;
-    box-shadow: 0 0 1rem var(--bg-color);
+    box-shadow: 0 0 1rem var(--second-bg-color);
     overflow: hidden;
     display: flex;
 }
@@ -428,11 +433,13 @@ span{
 }
 
 .projects-layer h4{
-    font-size: 3rem;
+    padding-top: 20px;
+    font-size: 2rem;
+    line-height: 2rem;
 }
 
 .projects-layer p{
-    font-size: 1.6rem;
+    font-size: 1.4rem;
     margin: .3rem 0 1rem;
 } 
 
