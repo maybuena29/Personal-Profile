@@ -239,7 +239,8 @@
     <section class="contact" id="contact">
         <h2 class="heading scroll-scale">Contact <span>Me!</span></h2>
 
-        <form action="#" method="POST" name="contact" data-netlify="true" onsubmit="submit">
+        <form action="#" method="POST" name="contact" data-netlify="true" onsubmit="submit" 
+        data-netlify-recaptcha="true">
             <div class="input-box">
                 <input type="text" placeholder="Full Name" name="name">
                 <input type="email" placeholder="Email Address" name="email">
@@ -250,7 +251,7 @@
                 name="mobile">
                 <input type="text" placeholder="Email Subject" name="subject">
             </div>
-            <textarea name="" id="" cols="30" rows="10" placeholder="Message" name="message"></textarea>
+            <textarea id="" cols="30" rows="10" placeholder="Message" name="message"></textarea>
             <input type="submit" value="Send Message" class="btn">
         </form>
     </section>
