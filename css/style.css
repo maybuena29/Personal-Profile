@@ -289,17 +289,17 @@ span{
 }
 
 .skill-bar .bar .js{
-    width: 75%;
+    width: 65%;
     animation: js 2.5s;
 }
 
 .skill-bar .bar .css{
-    width: 87%;
+    width: 75%;
     animation: css 3s;
 }
 
 .skill-bar .bar .php{
-    width: 40%;
+    width: 30%;
     animation: php 3.5s;
 }
 
@@ -309,12 +309,12 @@ span{
 }
 
 .skill-bar .bar .nodejs{
-    width: 50%;
+    width: 40%;
     animation: nodejs 4.5s;
 }
 
 .skill-bar .bar .mysql{
-    width: 89%;
+    width: 85%;
     animation: mysql 5s;
 }
 
@@ -744,7 +744,7 @@ span{
         width: 0%;
     }
     100% {
-        width: 75%;
+        width: 65%;
     }
 }
 
@@ -753,7 +753,7 @@ span{
         width: 0%;
     }
     100% {
-        width: 87%;
+        width: 75%;
     }
 }
 
@@ -762,7 +762,7 @@ span{
         width: 0%;
     }
     100% {
-        width: 40%;
+        width: 30%;
     }
 }
 
@@ -780,7 +780,7 @@ span{
         width: 0%;
     }
     100% {
-        width: 50%;
+        width: 40%;
     }
 }
 
@@ -789,7 +789,7 @@ span{
         width: 0%;
     }
     100% {
-        width: 89%;
+        width: 85%;
     }
 }
 
