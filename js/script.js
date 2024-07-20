@@ -96,7 +96,7 @@ ScrollReveal().reveal(".about-img, .home-content h1, .main-text h2", {
 
 // Typed JS //
 const typed = new Typed(".multiple-text", {
-  strings: ["Web Developer", "Back-End Developer", "Full-Stack Developer"],
+  strings: ["Back-End Developer", "Full-Stack Developer", "Support Operations", ],
   typeSpeed: 100,
   backSpeed: 100,
   backDelay: 1000,
