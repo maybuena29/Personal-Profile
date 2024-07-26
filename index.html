@@ -325,17 +325,16 @@
       <h2 class="heading scroll-scale">Contact <span>Me!</span></h2>
 
       <form
-        action="#"
         method="POST"
         name="contact"
         data-netlify="true"
-        onsubmit="submit"
+        onSubmit="submit"
         data-netlify-honeypot="bot-field"
       >
         <input name="bot-field" style="display: none" />
         <div class="input-box">
-          <input type="text" placeholder="Full Name" name="name" />
-          <input type="email" placeholder="Email Address" name="email" />
+          <input type="text" placeholder="Full Name" name="name" required/>
+          <input type="email" placeholder="Email Address" name="email" required/>
         </div>
         <div class="input-box">
           <input
@@ -344,8 +343,9 @@
             placeholder="Mobile Number"
             oninput="javascript: if (this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
             name="mobile"
+            required
           />
-          <input type="text" placeholder="Email Subject" name="subject" />
+          <input type="text" placeholder="Email Subject" name="subject" required/>
         </div>
         <textarea
           id=""
@@ -353,6 +353,7 @@
           rows="10"
           placeholder="Message"
           name="message"
+          required
         ></textarea>
         <!-- <div data-netlify-recaptcha="true"></div> -->
         <input type="submit" value="Send Message" class="btn" />
